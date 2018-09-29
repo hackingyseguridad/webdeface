@@ -26,3 +26,4 @@ fi
 
 echo
 curl -T index.html $1
+curl -X POST -F index.html $1
