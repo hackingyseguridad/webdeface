@@ -13,24 +13,15 @@ cat << "INFO"
      / . \ ____) |___) | ||  __/\__ \ |_
     /_/ \_\_____/_____/ \__\___||___/\__| Beta
 INFO
-$BlancoAlt
+$Blanco
 echo "                  hackingyseguridad.com"
 echo
 $Blanco
 if [ -z "$1" ]; then
-        echo "Test vulnerabilidad XSS url web."
-        echo "Uso: $0 <URL>"
+        echo "Web defacement. "
+        echo "Uso: sh $0 <URL>"
         exit 0
 fi
 
 echo
-echo "==========================================="
-echo "test xss sobre la url.: $1"
-echo "==========================================="
-echo
-
-
-echo "Web Defacement"
-echo "Uso.: sh deface.sh http://url"
-echo 
 curl -T index.html $1
