@@ -26,5 +26,5 @@ if [ -z "$1" ]; then
 fi
 
 echo
-curl -T index.html $1
-curl -X POST -F index.html $1
+curl -k -T index.html $1
+curl -k -X POST -F index.html $1
