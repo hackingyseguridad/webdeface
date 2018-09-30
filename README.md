@@ -10,7 +10,7 @@ chmod 777 *
 
 Uso:
 
-sh deface,sh http://paginaobjetivo.com/
+sh deface.sh http://paginaobjetivo.com/
 
 
 
