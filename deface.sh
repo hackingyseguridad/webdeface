@@ -1,4 +1,5 @@
 #!/bin/bash
+# Simple bash script tool
 
 Normal=$(echo 'printf' '\033[39m')
 Verde=$(echo 'printf' '\033[32m')
