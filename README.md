@@ -53,5 +53,5 @@ sh testurl.sh fqdn
 El método HTTP PUT normalmente se usa para cargar datos que se guardan en el servidor web en una URL proporcionada por el usuario. Si está habilitado, un atacante puede colocar contenido en la aplicación Web. Dependiendo de la configuración del servidor, esto puede llevar a un compromiso de otros usuarios (mediante la carga de scripts ejecutables por el cliente), el compromiso del servidor (al cargar el código ejecutable del servidor) u otros ataques.
 
 
+http://www.hackingyseguridad.com/secure/index2.htm
 
-http://www.hackingyseguridad.com/
