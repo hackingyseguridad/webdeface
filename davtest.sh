@@ -1,5 +1,5 @@
-
-
+echo
+echo " Detectar si un servidor WebDAV está habilitado (y qué métodos HTTP acepta: PUT, DELETE, etc "
 echo
 echo "..."
 echo
