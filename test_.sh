@@ -1,6 +1,6 @@
 #!/bin/bash
-# Script de prueba de vulnerabilidad OSVDB-397 (solo para investigación ética)
-# Uso legal: Solo en sistemas propios o con autorización explícita.
+# Script de prueba de vulnerabilidad OSVDB-397 
+# Verifica si un sitio web antiguo de PHP-Nuke es vulnerable a SQL Injection (OSVDB-397).
 
 if [ $# -ne 1 ]; then
   echo "Uso: $0 <URL>"
