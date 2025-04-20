@@ -2,7 +2,7 @@
 
 curl -k -X PUT -T "/tmp/index2.htm" "https://IP/index2.htm" -vv
 
-# Instalación:
+## Instalación:
 
 apt-get install #https://github.com/hackingyseguridad/webdeface
 
@@ -14,7 +14,7 @@ Uso:
 
 sh deface.sh http://paginaobjetivo.com/
 
-# Test HTTP Method PUT OPTIONS POST, activo:
+## Test HTTP Method PUT OPTIONS POST, activo:
 
 sh testurl.sh fqdn
 
